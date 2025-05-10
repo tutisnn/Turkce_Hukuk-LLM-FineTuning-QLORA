@@ -41,6 +41,7 @@ Veri setinde **aynı cevaba farklı sorularla ulaşan örneklerin** bulunduğu d
 
 | Dosya                          | Açıklama                                  |
 | ------------------------------ | ----------------------------------------- |
+| `hukuk-projesi-renicames.ipynb`| Full fine tuning                           |
 | `hukuk-projesi-qlora.ipynb`    | İlk QLoRA denemesi                        |
 | `hukuk-projesi-qlora-v2.ipynb` | Parametre iyileştirmeleri içeren versiyon |
 | `hukuk-projesi-qlora-v3.ipynb` | En verimli sonuçları üreten final sürüm   |
