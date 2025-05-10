@@ -31,19 +31,9 @@ Bu proje, **2024 Teknofest Yapay Zeka Yarışması birincisi** olan hukuk tabanl
 3. **Üçüncü Deneme**: `batch_size = 16`, `num_train_epochs = 15`
    ➤ `num_train_epochs` artırılmasının nedeni: **Validation loss** hâlâ düşmeye devam ediyordu.
 
-#### 📊 Önemli Bir Gözlem
+#### 📊Test  Çıkarımları
 
 Veri setinde **aynı cevaba farklı sorularla ulaşan örneklerin** bulunduğu durumlarda, QLoRA ile eğitilmiş modelin performansı **Teknofest’te kullanılan orijinal modele oldukça yakın sonuçlar** vermektedir.
-Bu da, QLoRA’nın genelleme kabiliyetinin özellikle **semantik çeşitliliği olan yapılarda** güçlü olduğunu göstermektedir.
-
----
-
-### ⚙️ Teknik Detaylar
-
-* **Model**: `Turkish-NLP/t5-efficient-base-turkish`
-* **Yöntem**: QLoRA (4-bit quantization + LoRA adaptasyonu)
-* **LoRA Ayarları**: `r=64`, `alpha=16`, `dropout=0.05`
-* **Kütüphaneler**: `transformers`, `datasets`, `peft`, `bitsandbytes`, `accelerate`
 
 ---
 
@@ -63,9 +53,15 @@ Bu da, QLoRA’nın genelleme kabiliyetinin özellikle **semantik çeşitliliği
 * Önceki Teknofest projesiyle aynı veri ve model temel alınmış,
 * Eğitim sürecine QLoRA gibi modern PEFT yöntemleri entegre edilmiştir,
 * Bu sayede klasik eğitimin önündeki bellek sorunları ortadan kaldırılmış, daha hızlı ve etkili bir eğitim mümkün kılınmıştır,
-* QLoRA ile elde edilen sonuçlar, özellikle **soru çeşitliliği içeren senaryolarda** yüksek başarı göstermiştir.
+
 
 ---
+### 📈 Yapılabilecek İyileştirmeler
+
+* Eğitim sayısı artırılabilir,
+* Teknofest modelindeki gibi ROUGE değerlerine bakılabilir,
+* Farklı LLM'ler denenebilir.
+
 
 
 ### 🔗 Referanslar
@@ -73,11 +69,7 @@ Bu da, QLoRA’nın genelleme kabiliyetinin özellikle **semantik çeşitliliği
 1. **Teknofest 2024 1.si Reincames Takımının  GitHub Reposu**:[Teknofest Proje GitHub](https://github.com/Renicames/MindLaw)  
 2. **Veri Seti - Hugging Face**: [Hukuk Veri Seti Hugging Face](https://huggingface.co/datasets/Renicames/turkish-law-chatbot)  
 3. **Geliştirdiğim Modeller**: [Benim Modellerime Huggigface hesabımdan erişebilirsiniz.](https://huggingface.co/tuhanasinan/)
+4. **Base Model**:`Turkish-NLP/t5-efficient-base-turkish`
 ---
-### 📈 Yapılabilecek İyileştirmeler
-
-* Eğitim sayısı artırılabilir,
-* Teknofest modelindeki gibi ROUGE değerlerine bakılabilir,
-* Farklı LLM'ler denenebilir.
 
 ---
