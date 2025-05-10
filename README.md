@@ -32,7 +32,7 @@
 
 #### 📊Test  Çıkarımları
 
-Veri setinde **aynı cevaba farklı sorularla ulaşan örneklerin** bulunduğu durumlarda, QLoRA ile eğitilmiş modelin performansı **Renicames takımının geliştirdiğiorijinal modele oldukça yakın sonuçlar** vermektedir.
+Veri setinde **aynı cevaba farklı sorularla ulaşan örneklerin** bulunduğu durumlarda, QLoRA ile eğitilmiş modelin performansı **Renicames takımının geliştirdiği orijinal modele oldukça yakın sonuçlar** vermektedir.
 
 ---
 
