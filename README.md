@@ -63,6 +63,8 @@ Veri setinde **aynı cevaba farklı sorularla ulaşan örneklerin** bulunduğu d
 * Farklı LLM'ler denenebilir.
 
 
+---
+
 
 ### 🔗 Referanslar
 
@@ -70,6 +72,4 @@ Veri setinde **aynı cevaba farklı sorularla ulaşan örneklerin** bulunduğu d
 2. **Veri Seti - Hugging Face**: [Hukuk Veri Seti Hugging Face](https://huggingface.co/datasets/Renicames/turkish-law-chatbot)  
 3. **Geliştirdiğim Modeller**: [Benim Modellerime Huggigface hesabımdan erişebilirsiniz.](https://huggingface.co/tuhanasinan/)
 4. **Base Model**:`Turkish-NLP/t5-efficient-base-turkish`
----
-
 ---
