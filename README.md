@@ -70,9 +70,9 @@ Bu da, QLoRA’nın genelleme kabiliyetinin özellikle **semantik çeşitliliği
 
 ### 🔗 Referanslar
 
-1. **Teknofest 2024 Hukuk Modeli GitHub Reposu**: [Teknofest Proje GitHub](https://github.com/xxxxxx)  
-2. **Veri Seti - Hugging Face**: [Hukuk Veri Seti Hugging Face](https://huggingface.co/datasets/xxxxxx)  
-3. **Geliştirdiğim Modeller**: [Benim Model Reposu](https://github.com/xxxxxx)
+1. **Teknofest 2024 1.si Reincames Takımının  GitHub Reposu**:[Teknofest Proje GitHub](https://github.com/Renicames/MindLaw)  
+2. **Veri Seti - Hugging Face**: [Hukuk Veri Seti Hugging Face](https://huggingface.co/datasets/Renicames/turkish-law-chatbot)  
+3. **Geliştirdiğim Modeller**: [Benim Modellerime Huggigface hesabımdan erişebilirsiniz.](https://huggingface.co/tuhanasinan/)
 ---
 ### 📈 Yapılabilecek İyileştirmeler
 
