@@ -5,8 +5,7 @@
 
 ## 🏛️ Türkçe Hukuk LLM Eğitimi – QLoRA ile Geliştirilmiş Yaklaşım
 
-Bu proje, **2024 Teknofest Yapay Zeka Yarışması birincisi Renicames takımının** hukuk tabanlı dil modeli projesine katkı sağlayan ve bu çalışmayı daha verimli hale getirmeyi amaçlayan bir devam niteliğindedir. Aynı veri seti ve temel model kullanılarak, **QLoRA (Quantized Low-Rank Adaptation)** tekniğiyle **full fine-tuning'e ek olarak** alternatif bir eğitim yöntemi önerilmektedir.
-
+Bu proje, 2024 Teknofest Yapay Zeka Yarışması birincisi Renicames takımının hukuk tabanlı dil modeli çalışmasında kullanılan veri ve modele dayanarak, full fine-tuning’e alternatif bir yöntem olarak QLoRA (Quantized Low-Rank Adaptation) tekniğini önermektedir.
 ---
 
 ### 🎯 Projenin Amacı
